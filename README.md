@@ -12,7 +12,7 @@ docker compose up -d
 ## Configure variables
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_weather_api_etl/main/images/3.PNG)
 
-configure variables like below
+configure variables like above, such for aws key, id and other neccessary variables.
 
 ## Configure connection to HTTP API
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_weather_api_etl/main/images/2.PNG)
