@@ -1,7 +1,7 @@
 # ETL With Airflow Load from WeatherAPI and Load to AWS S3
 ![alt text](https://raw.githubusercontent.com/muhk01/airflow_weather_api_etl/main/images/1.PNG)
 
-Workflow for this project is like below, first check availability of the API, then fetch for each city defined in **city.csv** after that load result of daily data into aws S3 Bucket
+Workflow for this project is like below, this project is using API from https://openweathermap.org/api, you might have to register first and configure key for fetching realtime API data, briefly the flow is first check availability of the API, then fetch for each city defined in **city.csv** after that load result of daily data into aws S3 Bucket
 
 ## How to run?
 simply by firing up docker compose
