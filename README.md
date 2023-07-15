@@ -1,5 +1,5 @@
 # ETL With Airflow Load from WeatherAPI and Load to AWS S3
-Workflow for this project is like below, first check availability of the API, then fetch for each city defined in **cities.csv** after that load result of daily data into aws S3 Bucket
+Workflow for this project is like below, first check availability of the API, then fetch for each city defined in **city.csv** after that load result of daily data into aws S3 Bucket
 
 ## How to run?
 simply by firing up docker compose
